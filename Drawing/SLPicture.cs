@@ -513,8 +513,8 @@ namespace SharpSheet.Drawing
         [Obsolete("This is an esoteric function. Use the easier-to-understand SetPosition() function instead.")]
         public void SetRelativePositionInPixels(int AnchorRowIndex, int AnchorColumnIndex, int OffsetX, int OffsetY)
         {
-            long lOffsetXinEMU = (long)OffsetX * SLDocument.PixelToEMU;
-            long lOffsetYinEMU = (long)OffsetY * SLDocument.PixelToEMU;
+            long lOffsetXinEMU = (long)OffsetX * SSDocument.PixelToEMU;
+            long lOffsetYinEMU = (long)OffsetY * SSDocument.PixelToEMU;
             //this.SetRelativePositionInEMU(AnchorRowIndex, AnchorColumnIndex, lOffsetXinEMU, lOffsetYinEMU);
 
             this.UseEasyPositioning = false;

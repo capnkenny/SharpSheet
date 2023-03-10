@@ -134,7 +134,7 @@ namespace SharpSheet
         public bool? Outline { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLBorder. It is recommended to use CreateBorder() of the SLDocument class.
+        /// Initializes an instance of SLBorder. It is recommended to use CreateBorder() of the SSDocument class.
         /// </summary>
         public SLBorder()
         {

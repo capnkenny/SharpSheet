@@ -206,7 +206,7 @@ namespace SharpSheet
         }
 
         /// <summary>
-        /// Initializes an instance of SLFill. It is recommended to use CreateFill() of the SLDocument class.
+        /// Initializes an instance of SLFill. It is recommended to use CreateFill() of the SSDocument class.
         /// </summary>
         public SLFill()
         {
@@ -795,7 +795,7 @@ namespace SharpSheet
         }
 
         /// <summary>
-        /// Initializes an instance of SLPatternFill. It is recommended to use CreatePatternFill() of the SLDocument class.
+        /// Initializes an instance of SLPatternFill. It is recommended to use CreatePatternFill() of the SSDocument class.
         /// </summary>
         public SLPatternFill()
         {
@@ -1012,7 +1012,7 @@ namespace SharpSheet
         public double? Bottom { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLGradientFill. It is recommended to use CreateGradientFill() of the SLDocument class.
+        /// Initializes an instance of SLGradientFill. It is recommended to use CreateGradientFill() of the SSDocument class.
         /// </summary>
         public SLGradientFill()
         {

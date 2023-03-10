@@ -10,7 +10,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// This cleans up all the SLCell objects with default values.

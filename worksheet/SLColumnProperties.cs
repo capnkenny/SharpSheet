@@ -54,7 +54,7 @@ namespace SharpSheet
 
                     // the step sizes were calculated based on the max digit width minus 1 pixel.
                     int iPixels = iWholeNumber * (this.MaxDigitWidth - 1) + iStep;
-                    lWidthInEMU = (long)iPixels * SLDocument.PixelToEMU;
+                    lWidthInEMU = (long)iPixels * SSDocument.PixelToEMU;
                     fWidth = iWholeNumber + this.listColumnStepSize[iStep];
                     HasWidth = true;
 

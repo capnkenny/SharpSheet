@@ -4,7 +4,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace SharpSheet
 {
-    partial class SLDocument
+    partial class SSDocument
     {
         internal int SaveToStylesheet(string Hash)
         {

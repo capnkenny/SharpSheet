@@ -11,7 +11,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         private List<string> GetPossibleDateFormatsForImportParsing(List<string> list1, List<string> list2, List<string> list3)
         {

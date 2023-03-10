@@ -5,7 +5,7 @@ namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for representing a merged cell range. This simulates the DocumentFormat.OpenXml.Spreadsheet.MergeCell class.
-    /// The actual merging of cells is done by a SLDocument function. This class is for supporting purposes.
+    /// The actual merging of cells is done by a SSDocument function. This class is for supporting purposes.
     /// </summary>
     public class SLMergeCell
     {

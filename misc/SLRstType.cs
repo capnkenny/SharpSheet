@@ -22,7 +22,7 @@ namespace SharpSheet
         internal InlineString istrReal;
 
         /// <summary>
-        /// Initializes an instance of SLRstType. It is recommended to use CreateRstType() of the SLDocument class.
+        /// Initializes an instance of SLRstType. It is recommended to use CreateRstType() of the SSDocument class.
         /// </summary>
         public SLRstType()
         {

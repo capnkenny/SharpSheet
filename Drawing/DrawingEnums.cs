@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SharpSheet.Drawing
+﻿namespace SharpSheet.Drawing
 {
     /// <summary>
     /// Specifies how the end points are joined.

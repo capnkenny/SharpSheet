@@ -7,7 +7,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// <strong>Obsolete. </strong>Get the column name given the column index.

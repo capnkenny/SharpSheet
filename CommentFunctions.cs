@@ -13,7 +13,7 @@ using SLA = SharpSheet.Drawing;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Get existing comments in the currently selected worksheet. WARNING: This is only a snapshot. Any changes made to the returned result are not used.

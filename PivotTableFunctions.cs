@@ -6,7 +6,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         //TODO
 

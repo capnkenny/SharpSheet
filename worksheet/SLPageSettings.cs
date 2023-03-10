@@ -513,7 +513,7 @@ namespace SharpSheet
         private SLHeaderFooterSection HFSection { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLPageSettings. It is recommended to use GetPageSettings() of the SLDocument class.
+        /// Initializes an instance of SLPageSettings. It is recommended to use GetPageSettings() of the SSDocument class.
         /// </summary>
         public SLPageSettings()
         {

@@ -29,8 +29,8 @@ namespace SharpSheet
             get { return fHeight; }
             set
             {
-                double fModifiedRowHeight = value / SLDocument.RowHeightMultiple;
-                fModifiedRowHeight = Math.Ceiling(fModifiedRowHeight) * SLDocument.RowHeightMultiple;
+                double fModifiedRowHeight = value / SSDocument.RowHeightMultiple;
+                fModifiedRowHeight = Math.Ceiling(fModifiedRowHeight) * SSDocument.RowHeightMultiple;
 
                 lHeightInEMU = (long)(fModifiedRowHeight * SLConstants.PointToEMU);
 

@@ -299,7 +299,7 @@ namespace SharpSheet
                         {
                             fDefaultRowHeadingWidth = (double)SLTool.MeasureText(bmExtra, g, sText, SLTool.GetUsableNormalFont(FontName, fFontSize, System.Drawing.FontStyle.Regular, ThrowExceptionsIfAny)).Width;
                             fDefaultRowHeadingWidth += fPadding;
-                            fDefaultRowHeadingWidth = fDefaultRowHeadingWidth * (double)SLDocument.PixelToEMU / (double)SLConstants.PointToEMU;
+                            fDefaultRowHeadingWidth = fDefaultRowHeadingWidth * (double)SSDocument.PixelToEMU / (double)SLConstants.PointToEMU;
                         }
                     }
                     break;

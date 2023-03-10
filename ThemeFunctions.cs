@@ -4,7 +4,7 @@ using DocumentFormat.OpenXml.Packaging;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Get the spreadsheet's theme settings.

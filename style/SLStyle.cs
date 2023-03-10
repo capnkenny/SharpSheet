@@ -344,7 +344,7 @@ namespace SharpSheet
         internal bool? ApplyProtection { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLStyle. It is recommended to use CreateStyle() of the SLDocument class.
+        /// Initializes an instance of SLStyle. It is recommended to use CreateStyle() of the SSDocument class.
         /// </summary>
         public SLStyle()
         {

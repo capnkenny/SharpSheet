@@ -11,7 +11,7 @@ using SLA = SharpSheet.Drawing;
 
 namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Creates an instance of SLFont with theme information.

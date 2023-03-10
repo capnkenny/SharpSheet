@@ -752,12 +752,12 @@ namespace SharpSheet
                 int iWholeNumber = iDefaultColumnWidthInPixels / (iMaxDigitWidth - 1);
                 int iRemainder = iDefaultColumnWidthInPixels % (iMaxDigitWidth - 1);
 
-                SLDocument.PixelToEMU = Convert.ToInt64((float)SLConstants.InchToEMU / bmGraphics.HorizontalResolution);
-                SLDocument.RowHeightMultiple = 72.0 / bmGraphics.VerticalResolution;
+                SSDocument.PixelToEMU = Convert.ToInt64((float)SLConstants.InchToEMU / bmGraphics.HorizontalResolution);
+                SSDocument.RowHeightMultiple = 72.0 / bmGraphics.VerticalResolution;
 
                 this.iThemeMaxDigitWidth = iMaxDigitWidth;
                 this.fThemeColumnWidth = (double)iWholeNumber + listColumnStepSize[iRemainder];
-                this.lThemeColumnWidthInEMU = (long)iDefaultColumnWidthInPixels * SLDocument.PixelToEMU;
+                this.lThemeColumnWidthInEMU = (long)iDefaultColumnWidthInPixels * SSDocument.PixelToEMU;
                 this.fThemeRowHeight = SLTool.GetDefaultRowHeight(this.MinorLatinFont);
                 this.lThemeRowHeightInEMU = Convert.ToInt64(this.fThemeRowHeight * SLConstants.PointToEMU);
             }

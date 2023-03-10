@@ -136,7 +136,7 @@ namespace SharpSheet
         }
 
         /// <summary>
-        /// Initializes an instance of SLFont. It is recommended to use CreateFont() of the SLDocument class.
+        /// Initializes an instance of SLFont. It is recommended to use CreateFont() of the SSDocument class.
         /// </summary>
         public SLFont()
         {
