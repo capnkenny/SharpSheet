@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 using Excel = DocumentFormat.OpenXml.Office.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Built-in sparkline styles.

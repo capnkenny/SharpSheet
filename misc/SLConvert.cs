@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     // Why is this similar to SLTool? Why not make SLTool public and be done with it?
     // See comments at the top of SLTool.cs.

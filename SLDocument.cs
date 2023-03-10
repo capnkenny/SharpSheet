@@ -20,7 +20,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // You can get the precompiled DLL as well as documentation at http://spreadsheetlight.com/
 // If you're interested, my personal blog is at http://polymathprogrammer.com/
-// Thanks for using SpreadsheetLight! -Vincent
+// Thanks for using SharpSheet! -Vincent
 
 using System;
 using System.Collections.Generic;
@@ -37,12 +37,12 @@ using DocumentFormat.OpenXml.Spreadsheet;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates the main properties and methods to create and manipulate a spreadsheet.
     /// </summary>
-    public partial class SLDocument : IDisposable
+    public partial class SSDocument : IDisposable
     {
         private MemoryStream memstream;
         private SpreadsheetDocument xl;
@@ -56,7 +56,7 @@ namespace SpreadsheetLight
         private bool IsNewWorksheet = true;
 
         private bool gbThrowExceptionsIfAny = false;
-        // This is a suggestion from David H. SpreadsheetLight originally swallows any exceptions
+        // This is a suggestion from David H. SharpSheet originally swallows any exceptions
         // so that the calling program using the library continues to function.
         // It's designed this way because the calling program can be an automated scheduled program
         // running in the wee hours of the morning. If there's a whole bunch of programs, then a failure
@@ -216,7 +216,7 @@ namespace SpreadsheetLight
         /// <summary>
         /// Set to true to write the unique shared string count property, false otherwise. The default is true.
         /// Set this to false if you get an error opening the resulting file because at a high number of text strings,
-        /// SpreadsheetLight might count the number wrongly (because the Open XML specs are sort of convoluted).
+        /// SharpSheet might count the number wrongly (because the Open XML specs are sort of convoluted).
         /// </summary>
         public bool WriteUniqueSharedStringCount
         {
@@ -228,7 +228,7 @@ namespace SpreadsheetLight
         /// <summary>
         /// Create a new spreadsheet with a worksheet with the default sheet name.
         /// </summary>
-        public SLDocument()
+        public SSDocument()
         {
             memstream = new MemoryStream();
             xl = SpreadsheetDocument.Create(memstream, SpreadsheetDocumentType.Workbook);
@@ -252,7 +252,7 @@ namespace SpreadsheetLight
         /// Create a new spreadsheet with a selected theme of fonts and colors.
         /// </summary>
         /// <param name="ThemeType">The selected theme.</param>
-        public SLDocument(SLThemeTypeValues ThemeType)
+        public SSDocument(SLThemeTypeValues ThemeType)
         {
             memstream = new MemoryStream();
             xl = SpreadsheetDocument.Create(memstream, SpreadsheetDocumentType.Workbook);
@@ -276,7 +276,7 @@ namespace SpreadsheetLight
         /// Create a new spreadsheet with a custom theme.
         /// </summary>
         /// <param name="ThemeSettings">Custom theme settings.</param>
-        public SLDocument(SLThemeSettings ThemeSettings)
+        public SSDocument(SLThemeSettings ThemeSettings)
         {
             memstream = new MemoryStream();
             xl = SpreadsheetDocument.Create(memstream, SpreadsheetDocumentType.Workbook);
@@ -312,7 +312,7 @@ namespace SpreadsheetLight
         /// Note that the first available worksheet may not be visible, nor in the order you think it is.
         /// </summary>
         /// <param name="SpreadsheetFileName">The file name of the existing spreadsheet.</param>
-        public SLDocument(string SpreadsheetFileName)
+        public SSDocument(string SpreadsheetFileName)
         {
             byte[] baData = File.ReadAllBytes(SpreadsheetFileName);
             memstream = new MemoryStream();
@@ -330,7 +330,7 @@ namespace SpreadsheetLight
         /// </summary>
         /// <param name="SpreadsheetFileName">The file name of the existing spreadsheet.</param>
         /// <param name="SheetNameOnOpen">The sheet name of desired worksheet on opening the spreadsheet.</param>
-        public SLDocument(string SpreadsheetFileName, string SheetNameOnOpen)
+        public SSDocument(string SpreadsheetFileName, string SheetNameOnOpen)
         {
             byte[] baData = File.ReadAllBytes(SpreadsheetFileName);
             memstream = new MemoryStream();
@@ -346,7 +346,7 @@ namespace SpreadsheetLight
         /// Note that the first available worksheet may not be visible, nor in the order you think it is.
         /// </summary>
         /// <param name="SpreadsheetStream">Stream containing spreadsheet content.</param>
-        public SLDocument(Stream SpreadsheetStream)
+        public SSDocument(Stream SpreadsheetStream)
         {
             SpreadsheetStream.Position = 0;
             byte[] baData = new byte[SpreadsheetStream.Length];
@@ -366,7 +366,7 @@ namespace SpreadsheetLight
         /// </summary>
         /// <param name="SpreadsheetStream">Stream containing spreadsheet content.</param>
         /// <param name="SheetNameOnOpen">The sheet name of desired worksheet on opening the spreadsheet.</param>
-        public SLDocument(Stream SpreadsheetStream, string SheetNameOnOpen)
+        public SSDocument(Stream SpreadsheetStream, string SheetNameOnOpen)
         {
             SpreadsheetStream.Position = 0;
             byte[] baData = new byte[SpreadsheetStream.Length];

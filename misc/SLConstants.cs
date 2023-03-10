@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLConstants
     {
-        internal const string ApplicationName = "SpreadsheetLight";
+        internal const string ApplicationName = "SharpSheet";
 
         internal const string BlankSpreadsheetFileName = "Book1.xlsx";
         internal const string DefaultFirstSheetName = "Sheet1";
@@ -19,7 +19,7 @@ namespace SpreadsheetLight
         // spreadsheet is opened with an earlier version (say Excel 2007)? Does the earlier
         // version of the spreadsheet application know what to do with the later version and
         // possibly formulas that it knows nothing about?
-        // But all this is moot because SpreadsheetLight doesn't have a calculation engine.
+        // But all this is moot because SharpSheet doesn't have a calculation engine.
         // Frankly speaking this ID is specific to the application, and not really tied to Excel.
         // You could use a Mersenne prime or your birthday if you really want to.
         // But let's be honest, Excel is the most widely used spreadsheet application out there...
@@ -171,7 +171,7 @@ namespace SpreadsheetLight
         // *We* have to do the actual image processing and create an image of the resulting
         // image processing. A .wdp (Windows Media Photo) is kept of the original image, and the
         // resulting image processed image will be saved as normal (like ImagePart).
-        // I'm not ready to write image processing capabilities into SpreadsheetLight just yet...
+        // I'm not ready to write image processing capabilities into SharpSheet just yet...
         // At least not such that the resulting image looks like what Excel produces, which is the main
         // point. If it doesn't look like what Excel produced, then the user is likely to dismiss it
         // as "inferior" or "wrong".
@@ -204,7 +204,7 @@ namespace SpreadsheetLight
         // Update: 26 July 2013. Moar themes in Excel 2013!
         // Berlin, Circuit, Damask, Depth, Droplet, Main Event, Slate, Vapor Trail
 
-        internal const string OfficeThemeName = "SpreadsheetLight Office";
+        internal const string OfficeThemeName = "SharpSheet Office";
         internal const string OfficeThemeMajorLatinFont = "Cambria";
         internal const string OfficeThemeMinorLatinFont = "Calibri";
         internal const string OfficeThemeDark1Color = "000000";
@@ -220,7 +220,7 @@ namespace SpreadsheetLight
         internal const string OfficeThemeHyperlink = "0000FF";
         internal const string OfficeThemeFollowedHyperlinkColor = "800080";
 
-        internal const string Office2013ThemeName = "SpreadsheetLight Office2013";
+        internal const string Office2013ThemeName = "SharpSheet Office2013";
         internal const string Office2013ThemeMajorLatinFont = "Calibri Light";
         internal const string Office2013ThemeMinorLatinFont = "Calibri";
         internal const string Office2013ThemeDark1Color = "000000";
@@ -236,7 +236,7 @@ namespace SpreadsheetLight
         internal const string Office2013ThemeHyperlink = "0563C1";
         internal const string Office2013ThemeFollowedHyperlinkColor = "954F72";
 
-        internal const string AdjacencyThemeName = "SpreadsheetLight Adjacency";
+        internal const string AdjacencyThemeName = "SharpSheet Adjacency";
         internal const string AdjacencyThemeMajorLatinFont = "Cambria";
         internal const string AdjacencyThemeMinorLatinFont = "Calibri";
         internal const string AdjacencyThemeDark1Color = "2F2B20";
@@ -252,7 +252,7 @@ namespace SpreadsheetLight
         internal const string AdjacencyThemeHyperlink = "D25814";
         internal const string AdjacencyThemeFollowedHyperlinkColor = "849A0A";
 
-        internal const string AnglesThemeName = "SpreadsheetLight Angles";
+        internal const string AnglesThemeName = "SharpSheet Angles";
         internal const string AnglesThemeMajorLatinFont = "Franklin Gothic Medium";
         internal const string AnglesThemeMinorLatinFont = "Franklin Gothic Book";
         internal const string AnglesThemeDark1Color = "000000";
@@ -268,7 +268,7 @@ namespace SpreadsheetLight
         internal const string AnglesThemeHyperlink = "5F5F5F";
         internal const string AnglesThemeFollowedHyperlinkColor = "969696";
 
-        internal const string ApexThemeName = "SpreadsheetLight Apex";
+        internal const string ApexThemeName = "SharpSheet Apex";
         internal const string ApexThemeMajorLatinFont = "Lucida Sans";
         internal const string ApexThemeMinorLatinFont = "Book Antiqua";
         internal const string ApexThemeDark1Color = "000000";
@@ -284,7 +284,7 @@ namespace SpreadsheetLight
         internal const string ApexThemeHyperlink = "410082";
         internal const string ApexThemeFollowedHyperlinkColor = "932968";
 
-        internal const string ApothecaryThemeName = "SpreadsheetLight Apothecary";
+        internal const string ApothecaryThemeName = "SharpSheet Apothecary";
         internal const string ApothecaryThemeMajorLatinFont = "Book Antiqua";
         internal const string ApothecaryThemeMinorLatinFont = "Century Gothic";
         internal const string ApothecaryThemeDark1Color = "000000";
@@ -300,7 +300,7 @@ namespace SpreadsheetLight
         internal const string ApothecaryThemeHyperlink = "CCCC00";
         internal const string ApothecaryThemeFollowedHyperlinkColor = "B2B2B2";
 
-        internal const string AspectThemeName = "SpreadsheetLight Aspect";
+        internal const string AspectThemeName = "SharpSheet Aspect";
         internal const string AspectThemeMajorLatinFont = "Verdana";
         internal const string AspectThemeMinorLatinFont = "Verdana";
         internal const string AspectThemeDark1Color = "000000";
@@ -316,7 +316,7 @@ namespace SpreadsheetLight
         internal const string AspectThemeHyperlink = "6B9F25";
         internal const string AspectThemeFollowedHyperlinkColor = "B26B02";
 
-        internal const string AustinThemeName = "SpreadsheetLight Austin";
+        internal const string AustinThemeName = "SharpSheet Austin";
         internal const string AustinThemeMajorLatinFont = "Century Gothic";
         internal const string AustinThemeMinorLatinFont = "Century Gothic";
         internal const string AustinThemeDark1Color = "000000";
@@ -332,7 +332,7 @@ namespace SpreadsheetLight
         internal const string AustinThemeHyperlink = "E68200";
         internal const string AustinThemeFollowedHyperlinkColor = "FFA94A";
 
-        internal const string BlackTieThemeName = "SpreadsheetLight BlackTie";
+        internal const string BlackTieThemeName = "SharpSheet BlackTie";
         internal const string BlackTieThemeMajorLatinFont = "Garamond";
         internal const string BlackTieThemeMinorLatinFont = "Garamond";
         internal const string BlackTieThemeDark1Color = "000000";
@@ -348,7 +348,7 @@ namespace SpreadsheetLight
         internal const string BlackTieThemeHyperlink = "67AABF";
         internal const string BlackTieThemeFollowedHyperlinkColor = "B1B5AB";
 
-        internal const string CivicThemeName = "SpreadsheetLight Civic";
+        internal const string CivicThemeName = "SharpSheet Civic";
         internal const string CivicThemeMajorLatinFont = "Georgia";
         internal const string CivicThemeMinorLatinFont = "Georgia";
         internal const string CivicThemeDark1Color = "000000";
@@ -364,7 +364,7 @@ namespace SpreadsheetLight
         internal const string CivicThemeHyperlink = "00A3D6";
         internal const string CivicThemeFollowedHyperlinkColor = "694F07";
 
-        internal const string ClarityThemeName = "SpreadsheetLight Clarity";
+        internal const string ClarityThemeName = "SharpSheet Clarity";
         internal const string ClarityThemeMajorLatinFont = "Arial";
         internal const string ClarityThemeMinorLatinFont = "Arial";
         internal const string ClarityThemeDark1Color = "292934";
@@ -380,7 +380,7 @@ namespace SpreadsheetLight
         internal const string ClarityThemeHyperlink = "0000FF";
         internal const string ClarityThemeFollowedHyperlinkColor = "800080";
 
-        internal const string CompositeThemeName = "SpreadsheetLight Composite";
+        internal const string CompositeThemeName = "SharpSheet Composite";
         internal const string CompositeThemeMajorLatinFont = "Calibri";
         internal const string CompositeThemeMinorLatinFont = "Calibri";
         internal const string CompositeThemeDark1Color = "000000";
@@ -396,7 +396,7 @@ namespace SpreadsheetLight
         internal const string CompositeThemeHyperlink = "26CBEC";
         internal const string CompositeThemeFollowedHyperlinkColor = "598C8C";
 
-        internal const string ConcourseThemeName = "SpreadsheetLight Concourse";
+        internal const string ConcourseThemeName = "SharpSheet Concourse";
         internal const string ConcourseThemeMajorLatinFont = "Lucida Sans Unicode";
         internal const string ConcourseThemeMinorLatinFont = "Lucida Sans Unicode";
         internal const string ConcourseThemeDark1Color = "000000";
@@ -412,7 +412,7 @@ namespace SpreadsheetLight
         internal const string ConcourseThemeHyperlink = "FF8119";
         internal const string ConcourseThemeFollowedHyperlinkColor = "44B9E8";
 
-        internal const string CoutureThemeName = "SpreadsheetLight Couture";
+        internal const string CoutureThemeName = "SharpSheet Couture";
         internal const string CoutureThemeMajorLatinFont = "Garamond";
         internal const string CoutureThemeMinorLatinFont = "Garamond";
         internal const string CoutureThemeDark1Color = "000000";
@@ -428,7 +428,7 @@ namespace SpreadsheetLight
         internal const string CoutureThemeHyperlink = "B6A272";
         internal const string CoutureThemeFollowedHyperlinkColor = "8A784F";
 
-        internal const string ElementalThemeName = "SpreadsheetLight Elemental";
+        internal const string ElementalThemeName = "SharpSheet Elemental";
         internal const string ElementalThemeMajorLatinFont = "Palatino Linotype";
         internal const string ElementalThemeMinorLatinFont = "Palatino Linotype";
         internal const string ElementalThemeDark1Color = "000000";
@@ -444,7 +444,7 @@ namespace SpreadsheetLight
         internal const string ElementalThemeHyperlink = "9454C3";
         internal const string ElementalThemeFollowedHyperlinkColor = "3EBBF0";
 
-        internal const string EquityThemeName = "SpreadsheetLight Equity";
+        internal const string EquityThemeName = "SharpSheet Equity";
         internal const string EquityThemeMajorLatinFont = "Franklin Gothic Book";
         internal const string EquityThemeMinorLatinFont = "Perpetua";
         internal const string EquityThemeDark1Color = "000000";
@@ -460,7 +460,7 @@ namespace SpreadsheetLight
         internal const string EquityThemeHyperlink = "CC9900";
         internal const string EquityThemeFollowedHyperlinkColor = "96A9A9";
 
-        internal const string EssentialThemeName = "SpreadsheetLight Essential";
+        internal const string EssentialThemeName = "SharpSheet Essential";
         internal const string EssentialThemeMajorLatinFont = "Arial Black";
         internal const string EssentialThemeMinorLatinFont = "Arial";
         internal const string EssentialThemeDark1Color = "000000";
@@ -476,7 +476,7 @@ namespace SpreadsheetLight
         internal const string EssentialThemeHyperlink = "CC9900";
         internal const string EssentialThemeFollowedHyperlinkColor = "969696";
 
-        internal const string ExecutiveThemeName = "SpreadsheetLight Executive";
+        internal const string ExecutiveThemeName = "SharpSheet Executive";
         internal const string ExecutiveThemeMajorLatinFont = "Century Gothic";
         internal const string ExecutiveThemeMinorLatinFont = "Palatino Linotype";
         internal const string ExecutiveThemeDark1Color = "000000";
@@ -492,7 +492,7 @@ namespace SpreadsheetLight
         internal const string ExecutiveThemeHyperlink = "3399FF";
         internal const string ExecutiveThemeFollowedHyperlinkColor = "B2B2B2";
 
-        internal const string FacetThemeName = "SpreadsheetLight Facet";
+        internal const string FacetThemeName = "SharpSheet Facet";
         internal const string FacetThemeMajorLatinFont = "Trebuchet MS";
         internal const string FacetThemeMinorLatinFont = "Trebuchet MS";
         internal const string FacetThemeDark1Color = "000000";
@@ -508,7 +508,7 @@ namespace SpreadsheetLight
         internal const string FacetThemeHyperlink = "99CA3C";
         internal const string FacetThemeFollowedHyperlinkColor = "B9D181";
 
-        internal const string FlowThemeName = "SpreadsheetLight Flow";
+        internal const string FlowThemeName = "SharpSheet Flow";
         internal const string FlowThemeMajorLatinFont = "Calibri";
         internal const string FlowThemeMinorLatinFont = "Constantia";
         internal const string FlowThemeDark1Color = "000000";
@@ -524,7 +524,7 @@ namespace SpreadsheetLight
         internal const string FlowThemeHyperlink = "E2D700";
         internal const string FlowThemeFollowedHyperlinkColor = "85DFD0";
 
-        internal const string FoundryThemeName = "SpreadsheetLight Foundry";
+        internal const string FoundryThemeName = "SharpSheet Foundry";
         internal const string FoundryThemeMajorLatinFont = "Rockwell";
         internal const string FoundryThemeMinorLatinFont = "Rockwell";
         internal const string FoundryThemeDark1Color = "000000";
@@ -540,7 +540,7 @@ namespace SpreadsheetLight
         internal const string FoundryThemeHyperlink = "DB5353";
         internal const string FoundryThemeFollowedHyperlinkColor = "903638";
 
-        internal const string GridThemeName = "SpreadsheetLight Grid";
+        internal const string GridThemeName = "SharpSheet Grid";
         internal const string GridThemeMajorLatinFont = "Franklin Gothic Medium";
         internal const string GridThemeMinorLatinFont = "Franklin Gothic Medium";
         internal const string GridThemeDark1Color = "000000";
@@ -556,7 +556,7 @@ namespace SpreadsheetLight
         internal const string GridThemeHyperlink = "CC9900";
         internal const string GridThemeFollowedHyperlinkColor = "C0C0C0";
 
-        internal const string HardcoverThemeName = "SpreadsheetLight Hardcover";
+        internal const string HardcoverThemeName = "SharpSheet Hardcover";
         internal const string HardcoverThemeMajorLatinFont = "Book Antiqua";
         internal const string HardcoverThemeMinorLatinFont = "Book Antiqua";
         internal const string HardcoverThemeDark1Color = "000000";
@@ -572,7 +572,7 @@ namespace SpreadsheetLight
         internal const string HardcoverThemeHyperlink = "CC9900";
         internal const string HardcoverThemeFollowedHyperlinkColor = "B2B2B2";
 
-        internal const string HorizonThemeName = "SpreadsheetLight Horizon";
+        internal const string HorizonThemeName = "SharpSheet Horizon";
         internal const string HorizonThemeMajorLatinFont = "Arial Narrow";
         internal const string HorizonThemeMinorLatinFont = "Arial Narrow";
         internal const string HorizonThemeDark1Color = "000000";
@@ -588,7 +588,7 @@ namespace SpreadsheetLight
         internal const string HorizonThemeHyperlink = "646464";
         internal const string HorizonThemeFollowedHyperlinkColor = "969696";
 
-        internal const string IntegralThemeName = "SpreadsheetLight Integral";
+        internal const string IntegralThemeName = "SharpSheet Integral";
         internal const string IntegralThemeMajorLatinFont = "Tw Cen MT Condensed";
         internal const string IntegralThemeMinorLatinFont = "Tw Cen MT";
         internal const string IntegralThemeDark1Color = "000000";
@@ -604,7 +604,7 @@ namespace SpreadsheetLight
         internal const string IntegralThemeHyperlink = "6B9F25";
         internal const string IntegralThemeFollowedHyperlinkColor = "B26B02";
 
-        internal const string IonThemeName = "SpreadsheetLight Ion";
+        internal const string IonThemeName = "SharpSheet Ion";
         internal const string IonThemeMajorLatinFont = "Century Gothic";
         internal const string IonThemeMinorLatinFont = "Century Gothic";
         internal const string IonThemeDark1Color = "000000";
@@ -620,7 +620,7 @@ namespace SpreadsheetLight
         internal const string IonThemeHyperlink = "58C1BA";
         internal const string IonThemeFollowedHyperlinkColor = "9DFFCB";
 
-        internal const string IonBoardroomThemeName = "SpreadsheetLight Ion Boardroom";
+        internal const string IonBoardroomThemeName = "SharpSheet Ion Boardroom";
         internal const string IonBoardroomThemeMajorLatinFont = "Century Gothic";
         internal const string IonBoardroomThemeMinorLatinFont = "Century Gothic";
         internal const string IonBoardroomThemeDark1Color = "000000";
@@ -636,7 +636,7 @@ namespace SpreadsheetLight
         internal const string IonBoardroomThemeHyperlink = "8F8F8F";
         internal const string IonBoardroomThemeFollowedHyperlinkColor = "A5A5A5";
 
-        internal const string MedianThemeName = "SpreadsheetLight Median";
+        internal const string MedianThemeName = "SharpSheet Median";
         internal const string MedianThemeMajorLatinFont = "Tw Cen MT";
         internal const string MedianThemeMinorLatinFont = "Tw Cen MT";
         internal const string MedianThemeDark1Color = "000000";
@@ -652,7 +652,7 @@ namespace SpreadsheetLight
         internal const string MedianThemeHyperlink = "F7B615";
         internal const string MedianThemeFollowedHyperlinkColor = "704404";
 
-        internal const string MetroThemeName = "SpreadsheetLight Metro";
+        internal const string MetroThemeName = "SharpSheet Metro";
         internal const string MetroThemeMajorLatinFont = "Consolas";
         internal const string MetroThemeMinorLatinFont = "Corbel";
         internal const string MetroThemeDark1Color = "000000";
@@ -668,7 +668,7 @@ namespace SpreadsheetLight
         internal const string MetroThemeHyperlink = "EB8803";
         internal const string MetroThemeFollowedHyperlinkColor = "5F7791";
 
-        internal const string ModuleThemeName = "SpreadsheetLight Module";
+        internal const string ModuleThemeName = "SharpSheet Module";
         internal const string ModuleThemeMajorLatinFont = "Corbel";
         internal const string ModuleThemeMinorLatinFont = "Corbel";
         internal const string ModuleThemeDark1Color = "000000";
@@ -684,7 +684,7 @@ namespace SpreadsheetLight
         internal const string ModuleThemeHyperlink = "168BBA";
         internal const string ModuleThemeFollowedHyperlinkColor = "680000";
 
-        internal const string NewsprintThemeName = "SpreadsheetLight Newsprint";
+        internal const string NewsprintThemeName = "SharpSheet Newsprint";
         internal const string NewsprintThemeMajorLatinFont = "Impact";
         internal const string NewsprintThemeMinorLatinFont = "Times New Roman";
         internal const string NewsprintThemeDark1Color = "000000";
@@ -700,7 +700,7 @@ namespace SpreadsheetLight
         internal const string NewsprintThemeHyperlink = "D26900";
         internal const string NewsprintThemeFollowedHyperlinkColor = "D89243";
 
-        internal const string OpulentThemeName = "SpreadsheetLight Opulent";
+        internal const string OpulentThemeName = "SharpSheet Opulent";
         internal const string OpulentThemeMajorLatinFont = "Trebuchet MS";
         internal const string OpulentThemeMinorLatinFont = "Trebuchet MS";
         internal const string OpulentThemeDark1Color = "000000";
@@ -716,7 +716,7 @@ namespace SpreadsheetLight
         internal const string OpulentThemeHyperlink = "FFDE66";
         internal const string OpulentThemeFollowedHyperlinkColor = "D490C5";
 
-        internal const string OrganicThemeName = "SpreadsheetLight Organic";
+        internal const string OrganicThemeName = "SharpSheet Organic";
         internal const string OrganicThemeMajorLatinFont = "Garamond";
         internal const string OrganicThemeMinorLatinFont = "Garamond";
         internal const string OrganicThemeDark1Color = "000000";
@@ -732,7 +732,7 @@ namespace SpreadsheetLight
         internal const string OrganicThemeHyperlink = "A8BF4D";
         internal const string OrganicThemeFollowedHyperlinkColor = "B4CA80";
 
-        internal const string OrielThemeName = "SpreadsheetLight Oriel";
+        internal const string OrielThemeName = "SharpSheet Oriel";
         internal const string OrielThemeMajorLatinFont = "Century Schoolbook";
         internal const string OrielThemeMinorLatinFont = "Century Schoolbook";
         internal const string OrielThemeDark1Color = "000000";
@@ -748,7 +748,7 @@ namespace SpreadsheetLight
         internal const string OrielThemeHyperlink = "D2611C";
         internal const string OrielThemeFollowedHyperlinkColor = "3B435B";
 
-        internal const string OriginThemeName = "SpreadsheetLight Origin";
+        internal const string OriginThemeName = "SharpSheet Origin";
         internal const string OriginThemeMajorLatinFont = "Bookman Old Style";
         internal const string OriginThemeMinorLatinFont = "Gill Sans MT";
         internal const string OriginThemeDark1Color = "000000";
@@ -764,7 +764,7 @@ namespace SpreadsheetLight
         internal const string OriginThemeHyperlink = "B292CA";
         internal const string OriginThemeFollowedHyperlinkColor = "6B5680";
 
-        internal const string PaperThemeName = "SpreadsheetLight Paper";
+        internal const string PaperThemeName = "SharpSheet Paper";
         internal const string PaperThemeMajorLatinFont = "Constantia";
         internal const string PaperThemeMinorLatinFont = "Constantia";
         internal const string PaperThemeDark1Color = "000000";
@@ -780,7 +780,7 @@ namespace SpreadsheetLight
         internal const string PaperThemeHyperlink = "8E58B6";
         internal const string PaperThemeFollowedHyperlinkColor = "7F6F6F";
 
-        internal const string PerspectiveThemeName = "SpreadsheetLight Perspective";
+        internal const string PerspectiveThemeName = "SharpSheet Perspective";
         internal const string PerspectiveThemeMajorLatinFont = "Arial";
         internal const string PerspectiveThemeMinorLatinFont = "Arial";
         internal const string PerspectiveThemeDark1Color = "000000";
@@ -796,7 +796,7 @@ namespace SpreadsheetLight
         internal const string PerspectiveThemeHyperlink = "6187E3";
         internal const string PerspectiveThemeFollowedHyperlinkColor = "7B8EB8";
 
-        internal const string PushpinThemeName = "SpreadsheetLight Pushpin";
+        internal const string PushpinThemeName = "SharpSheet Pushpin";
         internal const string PushpinThemeMajorLatinFont = "Constantia";
         internal const string PushpinThemeMinorLatinFont = "Franklin Gothic Book";
         internal const string PushpinThemeDark1Color = "000000";
@@ -812,7 +812,7 @@ namespace SpreadsheetLight
         internal const string PushpinThemeHyperlink = "D83E2C";
         internal const string PushpinThemeFollowedHyperlinkColor = "ED7D27";
 
-        internal const string RetrospectThemeName = "SpreadsheetLight Retrospect";
+        internal const string RetrospectThemeName = "SharpSheet Retrospect";
         internal const string RetrospectThemeMajorLatinFont = "Calibri Light";
         internal const string RetrospectThemeMinorLatinFont = "Calibri";
         internal const string RetrospectThemeDark1Color = "000000";
@@ -828,7 +828,7 @@ namespace SpreadsheetLight
         internal const string RetrospectThemeHyperlink = "2998E3";
         internal const string RetrospectThemeFollowedHyperlinkColor = "8C8C8C";
 
-        internal const string SliceThemeName = "SpreadsheetLight Slice";
+        internal const string SliceThemeName = "SharpSheet Slice";
         internal const string SliceThemeMajorLatinFont = "Century Gothic";
         internal const string SliceThemeMinorLatinFont = "Century Gothic";
         internal const string SliceThemeDark1Color = "000000";
@@ -844,7 +844,7 @@ namespace SpreadsheetLight
         internal const string SliceThemeHyperlink = "0D2E46";
         internal const string SliceThemeFollowedHyperlinkColor = "356A95";
 
-        internal const string SlipstreamThemeName = "SpreadsheetLight Slipstream";
+        internal const string SlipstreamThemeName = "SharpSheet Slipstream";
         internal const string SlipstreamThemeMajorLatinFont = "Trebuchet MS";
         internal const string SlipstreamThemeMinorLatinFont = "Trebuchet MS";
         internal const string SlipstreamThemeDark1Color = "000000";
@@ -860,7 +860,7 @@ namespace SpreadsheetLight
         internal const string SlipstreamThemeHyperlink = "56C7AA";
         internal const string SlipstreamThemeFollowedHyperlinkColor = "59A8D1";
 
-        internal const string SolsticeThemeName = "SpreadsheetLight Solstice";
+        internal const string SolsticeThemeName = "SharpSheet Solstice";
         internal const string SolsticeThemeMajorLatinFont = "Gill Sans MT";
         internal const string SolsticeThemeMinorLatinFont = "Gill Sans MT";
         internal const string SolsticeThemeDark1Color = "000000";
@@ -876,7 +876,7 @@ namespace SpreadsheetLight
         internal const string SolsticeThemeHyperlink = "8DC765";
         internal const string SolsticeThemeFollowedHyperlinkColor = "AA8A14";
 
-        internal const string TechnicThemeName = "SpreadsheetLight Technic";
+        internal const string TechnicThemeName = "SharpSheet Technic";
         internal const string TechnicThemeMajorLatinFont = "Franklin Gothic Book";
         internal const string TechnicThemeMinorLatinFont = "Arial";
         internal const string TechnicThemeDark1Color = "000000";
@@ -892,7 +892,7 @@ namespace SpreadsheetLight
         internal const string TechnicThemeHyperlink = "00C8C3";
         internal const string TechnicThemeFollowedHyperlinkColor = "A116E0";
 
-        internal const string ThatchThemeName = "SpreadsheetLight Thatch";
+        internal const string ThatchThemeName = "SharpSheet Thatch";
         internal const string ThatchThemeMajorLatinFont = "Tw Cen MT";
         internal const string ThatchThemeMinorLatinFont = "Tw Cen MT";
         internal const string ThatchThemeDark1Color = "000000";
@@ -908,7 +908,7 @@ namespace SpreadsheetLight
         internal const string ThatchThemeHyperlink = "66AACD";
         internal const string ThatchThemeFollowedHyperlinkColor = "809DB3";
 
-        internal const string TrekThemeName = "SpreadsheetLight Trek";
+        internal const string TrekThemeName = "SharpSheet Trek";
         internal const string TrekThemeMajorLatinFont = "Franklin Gothic Medium";
         internal const string TrekThemeMinorLatinFont = "Franklin Gothic Book";
         internal const string TrekThemeDark1Color = "000000";
@@ -924,7 +924,7 @@ namespace SpreadsheetLight
         internal const string TrekThemeHyperlink = "AD1F1F";
         internal const string TrekThemeFollowedHyperlinkColor = "FFC42F";
 
-        internal const string UrbanThemeName = "SpreadsheetLight Urban";
+        internal const string UrbanThemeName = "SharpSheet Urban";
         internal const string UrbanThemeMajorLatinFont = "Trebuchet MS";
         internal const string UrbanThemeMinorLatinFont = "Georgia";
         internal const string UrbanThemeDark1Color = "000000";
@@ -940,7 +940,7 @@ namespace SpreadsheetLight
         internal const string UrbanThemeHyperlink = "67AFBD";
         internal const string UrbanThemeFollowedHyperlinkColor = "C2A874";
 
-        internal const string VerveThemeName = "SpreadsheetLight Verve";
+        internal const string VerveThemeName = "SharpSheet Verve";
         internal const string VerveThemeMajorLatinFont = "Century Gothic";
         internal const string VerveThemeMinorLatinFont = "Century Gothic";
         internal const string VerveThemeDark1Color = "000000";
@@ -956,7 +956,7 @@ namespace SpreadsheetLight
         internal const string VerveThemeHyperlink = "17BBFD";
         internal const string VerveThemeFollowedHyperlinkColor = "FF79C2";
 
-        internal const string WaveformThemeName = "SpreadsheetLight Waveform";
+        internal const string WaveformThemeName = "SharpSheet Waveform";
         internal const string WaveformThemeMajorLatinFont = "Candara";
         internal const string WaveformThemeMinorLatinFont = "Candara";
         internal const string WaveformThemeDark1Color = "000000";
@@ -972,7 +972,7 @@ namespace SpreadsheetLight
         internal const string WaveformThemeHyperlink = "0080FF";
         internal const string WaveformThemeFollowedHyperlinkColor = "5EAEFF";
 
-        internal const string WispThemeName = "SpreadsheetLight Wisp";
+        internal const string WispThemeName = "SharpSheet Wisp";
         internal const string WispThemeMajorLatinFont = "Century Gothic";
         internal const string WispThemeMinorLatinFont = "Century Gothic";
         internal const string WispThemeDark1Color = "000000";
@@ -988,7 +988,7 @@ namespace SpreadsheetLight
         internal const string WispThemeHyperlink = "FB4A18";
         internal const string WispThemeFollowedHyperlinkColor = "FB9318";
 
-        internal const string AutumnThemeName = "SpreadsheetLight Autumn";
+        internal const string AutumnThemeName = "SharpSheet Autumn";
         internal const string AutumnThemeMajorLatinFont = "Verdana";
         internal const string AutumnThemeMinorLatinFont = "Verdana";
         internal const string AutumnThemeDark1Color = "000000";
@@ -1004,7 +1004,7 @@ namespace SpreadsheetLight
         internal const string AutumnThemeHyperlink = "408080";
         internal const string AutumnThemeFollowedHyperlinkColor = "5EAEAE";
 
-        internal const string BandedThemeName = "SpreadsheetLight Banded";
+        internal const string BandedThemeName = "SharpSheet Banded";
         internal const string BandedThemeMajorLatinFont = "Corbel";
         internal const string BandedThemeMinorLatinFont = "Corbel";
         internal const string BandedThemeDark1Color = "2C2C2C";
@@ -1020,7 +1020,7 @@ namespace SpreadsheetLight
         internal const string BandedThemeHyperlink = "005DBA";
         internal const string BandedThemeFollowedHyperlinkColor = "6C606A";
 
-        internal const string BasisThemeName = "SpreadsheetLight Basis";
+        internal const string BasisThemeName = "SharpSheet Basis";
         internal const string BasisThemeMajorLatinFont = "Corbel";
         internal const string BasisThemeMinorLatinFont = "Corbel";
         internal const string BasisThemeDark1Color = "000000";
@@ -1036,7 +1036,7 @@ namespace SpreadsheetLight
         internal const string BasisThemeHyperlink = "F59E00";
         internal const string BasisThemeFollowedHyperlinkColor = "B2B2B2";
 
-        internal const string BerlinThemeName = "SpreadsheetLight Berlin";
+        internal const string BerlinThemeName = "SharpSheet Berlin";
         internal const string BerlinThemeMajorLatinFont = "Trebuchet MS";
         internal const string BerlinThemeMinorLatinFont = "Trebuchet MS";
         internal const string BerlinThemeDark1Color = "000000";
@@ -1052,7 +1052,7 @@ namespace SpreadsheetLight
         internal const string BerlinThemeHyperlink = "FFAE3E";
         internal const string BerlinThemeFollowedHyperlinkColor = "FCC77E";
 
-        internal const string CelestialThemeName = "SpreadsheetLight Celestial";
+        internal const string CelestialThemeName = "SharpSheet Celestial";
         internal const string CelestialThemeMajorLatinFont = "Calibri Light";
         internal const string CelestialThemeMinorLatinFont = "Calibri";
         internal const string CelestialThemeDark1Color = "000000";
@@ -1068,7 +1068,7 @@ namespace SpreadsheetLight
         internal const string CelestialThemeHyperlink = "C573D2";
         internal const string CelestialThemeFollowedHyperlinkColor = "CCAEE8";
 
-        internal const string CircuitThemeName = "SpreadsheetLight Circuit";
+        internal const string CircuitThemeName = "SharpSheet Circuit";
         internal const string CircuitThemeMajorLatinFont = "Tw Cen MT";
         internal const string CircuitThemeMinorLatinFont = "Tw Cen MT";
         internal const string CircuitThemeDark1Color = "000000";
@@ -1084,7 +1084,7 @@ namespace SpreadsheetLight
         internal const string CircuitThemeHyperlink = "B8FA56";
         internal const string CircuitThemeFollowedHyperlinkColor = "7AF8CC";
 
-        internal const string DamaskThemeName = "SpreadsheetLight Damask";
+        internal const string DamaskThemeName = "SharpSheet Damask";
         internal const string DamaskThemeMajorLatinFont = "Bookman Old Style";
         internal const string DamaskThemeMinorLatinFont = "Rockwell";
         internal const string DamaskThemeDark1Color = "000000";
@@ -1100,7 +1100,7 @@ namespace SpreadsheetLight
         internal const string DamaskThemeHyperlink = "6BA9DA";
         internal const string DamaskThemeFollowedHyperlinkColor = "A0BCD3";
 
-        internal const string DecaturThemeName = "SpreadsheetLight Decatur";
+        internal const string DecaturThemeName = "SharpSheet Decatur";
         internal const string DecaturThemeMajorLatinFont = "Bodoni MT Condensed";
         internal const string DecaturThemeMinorLatinFont = "Franklin Gothic Book";
         internal const string DecaturThemeDark1Color = "000000";
@@ -1116,7 +1116,7 @@ namespace SpreadsheetLight
         internal const string DecaturThemeHyperlink = "66AACD";
         internal const string DecaturThemeFollowedHyperlinkColor = "809DB3";
 
-        internal const string DepthThemeName = "SpreadsheetLight Depth";
+        internal const string DepthThemeName = "SharpSheet Depth";
         internal const string DepthThemeMajorLatinFont = "Corbel";
         internal const string DepthThemeMinorLatinFont = "Corbel";
         internal const string DepthThemeDark1Color = "000000";
@@ -1132,7 +1132,7 @@ namespace SpreadsheetLight
         internal const string DepthThemeHyperlink = "FBCA98";
         internal const string DepthThemeFollowedHyperlinkColor = "D3B86D";
 
-        internal const string DividendThemeName = "SpreadsheetLight Dividend";
+        internal const string DividendThemeName = "SharpSheet Dividend";
         internal const string DividendThemeMajorLatinFont = "Gill Sans MT";
         internal const string DividendThemeMinorLatinFont = "Gill Sans MT";
         internal const string DividendThemeDark1Color = "000000";
@@ -1148,7 +1148,7 @@ namespace SpreadsheetLight
         internal const string DividendThemeHyperlink = "828282";
         internal const string DividendThemeFollowedHyperlinkColor = "A5A5A5";
 
-        internal const string DropletThemeName = "SpreadsheetLight Droplet";
+        internal const string DropletThemeName = "SharpSheet Droplet";
         internal const string DropletThemeMajorLatinFont = "Tw Cen MT";
         internal const string DropletThemeMinorLatinFont = "Tw Cen MT";
         internal const string DropletThemeDark1Color = "000000";
@@ -1164,7 +1164,7 @@ namespace SpreadsheetLight
         internal const string DropletThemeHyperlink = "56BCFE";
         internal const string DropletThemeFollowedHyperlinkColor = "97C5E3";
 
-        internal const string FrameThemeName = "SpreadsheetLight Frame";
+        internal const string FrameThemeName = "SharpSheet Frame";
         internal const string FrameThemeMajorLatinFont = "Corbel";
         internal const string FrameThemeMinorLatinFont = "Corbel";
         internal const string FrameThemeDark1Color = "000000";
@@ -1180,7 +1180,7 @@ namespace SpreadsheetLight
         internal const string FrameThemeHyperlink = "90BB23";
         internal const string FrameThemeFollowedHyperlinkColor = "EE7008";
 
-        internal const string KilterThemeName = "SpreadsheetLight Kilter";
+        internal const string KilterThemeName = "SharpSheet Kilter";
         internal const string KilterThemeMajorLatinFont = "Rockwell";
         internal const string KilterThemeMinorLatinFont = "Rockwell";
         internal const string KilterThemeDark1Color = "000000";
@@ -1196,7 +1196,7 @@ namespace SpreadsheetLight
         internal const string KilterThemeHyperlink = "7AB6E8";
         internal const string KilterThemeFollowedHyperlinkColor = "83B0D3";
 
-        internal const string MacroThemeName = "SpreadsheetLight Macro";
+        internal const string MacroThemeName = "SharpSheet Macro";
         internal const string MacroThemeMajorLatinFont = "Calibri";
         internal const string MacroThemeMinorLatinFont = "Calibri";
         internal const string MacroThemeDark1Color = "000000";
@@ -1212,7 +1212,7 @@ namespace SpreadsheetLight
         internal const string MacroThemeHyperlink = "F5B123";
         internal const string MacroThemeFollowedHyperlinkColor = "E19B0B";
 
-        internal const string MainEventThemeName = "SpreadsheetLight Main Event";
+        internal const string MainEventThemeName = "SharpSheet Main Event";
         internal const string MainEventThemeMajorLatinFont = "Impact";
         internal const string MainEventThemeMinorLatinFont = "Impact";
         internal const string MainEventThemeDark1Color = "000000";
@@ -1228,7 +1228,7 @@ namespace SpreadsheetLight
         internal const string MainEventThemeHyperlink = "F21213";
         internal const string MainEventThemeFollowedHyperlinkColor = "B6A394";
 
-        internal const string MeshThemeName = "SpreadsheetLight Mesh";
+        internal const string MeshThemeName = "SharpSheet Mesh";
         internal const string MeshThemeMajorLatinFont = "Century Gothic";
         internal const string MeshThemeMinorLatinFont = "Century Gothic";
         internal const string MeshThemeDark1Color = "000000";
@@ -1244,7 +1244,7 @@ namespace SpreadsheetLight
         internal const string MeshThemeHyperlink = "F28943";
         internal const string MeshThemeFollowedHyperlinkColor = "F1B76C";
 
-        internal const string MetropolitanThemeName = "SpreadsheetLight Metropolitan";
+        internal const string MetropolitanThemeName = "SharpSheet Metropolitan";
         internal const string MetropolitanThemeMajorLatinFont = "Calibri Light";
         internal const string MetropolitanThemeMinorLatinFont = "Calibri Light";
         internal const string MetropolitanThemeDark1Color = "000000";
@@ -1260,7 +1260,7 @@ namespace SpreadsheetLight
         internal const string MetropolitanThemeHyperlink = "2370CD";
         internal const string MetropolitanThemeFollowedHyperlinkColor = "877589";
 
-        internal const string MylarThemeName = "SpreadsheetLight Mylar";
+        internal const string MylarThemeName = "SharpSheet Mylar";
         internal const string MylarThemeMajorLatinFont = "Corbel";
         internal const string MylarThemeMinorLatinFont = "Corbel";
         internal const string MylarThemeDark1Color = "000000";
@@ -1276,7 +1276,7 @@ namespace SpreadsheetLight
         internal const string MylarThemeHyperlink = "B5740B";
         internal const string MylarThemeFollowedHyperlinkColor = "7483A0";
 
-        internal const string ParallaxThemeName = "SpreadsheetLight Parallax";
+        internal const string ParallaxThemeName = "SharpSheet Parallax";
         internal const string ParallaxThemeMajorLatinFont = "Corbel";
         internal const string ParallaxThemeMinorLatinFont = "Corbel";
         internal const string ParallaxThemeDark1Color = "000000";
@@ -1292,7 +1292,7 @@ namespace SpreadsheetLight
         internal const string ParallaxThemeHyperlink = "3085ED";
         internal const string ParallaxThemeFollowedHyperlinkColor = "82B6F4";
 
-        internal const string QuotableThemeName = "SpreadsheetLight Quotable";
+        internal const string QuotableThemeName = "SharpSheet Quotable";
         internal const string QuotableThemeMajorLatinFont = "Century Gothic";
         internal const string QuotableThemeMinorLatinFont = "Century Gothic";
         internal const string QuotableThemeDark1Color = "000000";
@@ -1308,7 +1308,7 @@ namespace SpreadsheetLight
         internal const string QuotableThemeHyperlink = "8F8F8F";
         internal const string QuotableThemeFollowedHyperlinkColor = "A5A5A5";
 
-        internal const string SavonThemeName = "SpreadsheetLight Savon";
+        internal const string SavonThemeName = "SharpSheet Savon";
         internal const string SavonThemeMajorLatinFont = "Century Gothic";
         internal const string SavonThemeMinorLatinFont = "Century Gothic";
         internal const string SavonThemeDark1Color = "000000";
@@ -1324,7 +1324,7 @@ namespace SpreadsheetLight
         internal const string SavonThemeHyperlink = "F49100";
         internal const string SavonThemeFollowedHyperlinkColor = "739D9B";
 
-        internal const string SketchbookThemeName = "SpreadsheetLight Sketchbook";
+        internal const string SketchbookThemeName = "SharpSheet Sketchbook";
         internal const string SketchbookThemeMajorLatinFont = "Cambria";
         internal const string SketchbookThemeMinorLatinFont = "Cambria";
         internal const string SketchbookThemeDark1Color = "000000";
@@ -1340,7 +1340,7 @@ namespace SpreadsheetLight
         internal const string SketchbookThemeHyperlink = "942408";
         internal const string SketchbookThemeFollowedHyperlinkColor = "B34F17";
 
-        internal const string SlateThemeName = "SpreadsheetLight Slate";
+        internal const string SlateThemeName = "SharpSheet Slate";
         internal const string SlateThemeMajorLatinFont = "Calisto MT";
         internal const string SlateThemeMinorLatinFont = "Calisto MT";
         internal const string SlateThemeDark1Color = "000000";
@@ -1356,7 +1356,7 @@ namespace SpreadsheetLight
         internal const string SlateThemeHyperlink = "E98052";
         internal const string SlateThemeFollowedHyperlinkColor = "F4B69B";
 
-        internal const string SohoThemeName = "SpreadsheetLight Soho";
+        internal const string SohoThemeName = "SharpSheet Soho";
         internal const string SohoThemeMajorLatinFont = "Candara";
         internal const string SohoThemeMinorLatinFont = "Candara";
         internal const string SohoThemeDark1Color = "2E2224";
@@ -1372,7 +1372,7 @@ namespace SpreadsheetLight
         internal const string SohoThemeHyperlink = "FFDE66";
         internal const string SohoThemeFollowedHyperlinkColor = "C0AEBC";
 
-        internal const string SpringThemeName = "SpreadsheetLight Spring";
+        internal const string SpringThemeName = "SharpSheet Spring";
         internal const string SpringThemeMajorLatinFont = "Verdana";
         internal const string SpringThemeMinorLatinFont = "Verdana";
         internal const string SpringThemeDark1Color = "000000";
@@ -1388,7 +1388,7 @@ namespace SpreadsheetLight
         internal const string SpringThemeHyperlink = "408080";
         internal const string SpringThemeFollowedHyperlinkColor = "5EAEAE";
 
-        internal const string SummerThemeName = "SpreadsheetLight Summer";
+        internal const string SummerThemeName = "SharpSheet Summer";
         internal const string SummerThemeMajorLatinFont = "Verdana";
         internal const string SummerThemeMinorLatinFont = "Verdana";
         internal const string SummerThemeDark1Color = "000000";
@@ -1404,7 +1404,7 @@ namespace SpreadsheetLight
         internal const string SummerThemeHyperlink = "408080";
         internal const string SummerThemeFollowedHyperlinkColor = "5EAEAE";
 
-        internal const string ThermalThemeName = "SpreadsheetLight Thermal";
+        internal const string ThermalThemeName = "SharpSheet Thermal";
         internal const string ThermalThemeMajorLatinFont = "Calibri";
         internal const string ThermalThemeMinorLatinFont = "Calibri";
         internal const string ThermalThemeDark1Color = "4D5B6B";
@@ -1420,7 +1420,7 @@ namespace SpreadsheetLight
         internal const string ThermalThemeHyperlink = "89AAD3";
         internal const string ThermalThemeFollowedHyperlinkColor = "795185";
 
-        internal const string TradeshowThemeName = "SpreadsheetLight Tradeshow";
+        internal const string TradeshowThemeName = "SharpSheet Tradeshow";
         internal const string TradeshowThemeMajorLatinFont = "Arial Black";
         internal const string TradeshowThemeMinorLatinFont = "Candara";
         internal const string TradeshowThemeDark1Color = "3F3F3F";
@@ -1436,7 +1436,7 @@ namespace SpreadsheetLight
         internal const string TradeshowThemeHyperlink = "0079A4";
         internal const string TradeshowThemeFollowedHyperlinkColor = "595959";
 
-        internal const string UrbanPopThemeName = "SpreadsheetLight UrbanPop";
+        internal const string UrbanPopThemeName = "SharpSheet UrbanPop";
         internal const string UrbanPopThemeMajorLatinFont = "Gill Sans MT";
         internal const string UrbanPopThemeMinorLatinFont = "Gill Sans MT";
         internal const string UrbanPopThemeDark1Color = "000000";
@@ -1452,7 +1452,7 @@ namespace SpreadsheetLight
         internal const string UrbanPopThemeHyperlink = "FF9900";
         internal const string UrbanPopThemeFollowedHyperlinkColor = "969696";
 
-        internal const string VaporTrailThemeName = "SpreadsheetLight Vapor Trail";
+        internal const string VaporTrailThemeName = "SharpSheet Vapor Trail";
         internal const string VaporTrailThemeMajorLatinFont = "Century Gothic";
         internal const string VaporTrailThemeMinorLatinFont = "Century Gothic";
         internal const string VaporTrailThemeDark1Color = "000000";
@@ -1468,7 +1468,7 @@ namespace SpreadsheetLight
         internal const string VaporTrailThemeHyperlink = "F0532B";
         internal const string VaporTrailThemeFollowedHyperlinkColor = "F38B53";
 
-        internal const string ViewThemeName = "SpreadsheetLight View";
+        internal const string ViewThemeName = "SharpSheet View";
         internal const string ViewThemeMajorLatinFont = "Century Schoolbook";
         internal const string ViewThemeMinorLatinFont = "Century Schoolbook";
         internal const string ViewThemeDark1Color = "000000";
@@ -1484,7 +1484,7 @@ namespace SpreadsheetLight
         internal const string ViewThemeHyperlink = "67AABF";
         internal const string ViewThemeFollowedHyperlinkColor = "ABAFA5";
 
-        internal const string WinterThemeName = "SpreadsheetLight Winter";
+        internal const string WinterThemeName = "SharpSheet Winter";
         internal const string WinterThemeMajorLatinFont = "Verdana";
         internal const string WinterThemeMinorLatinFont = "Verdana";
         internal const string WinterThemeDark1Color = "000000";
@@ -1500,7 +1500,7 @@ namespace SpreadsheetLight
         internal const string WinterThemeHyperlink = "408080";
         internal const string WinterThemeFollowedHyperlinkColor = "5EAEAE";
 
-        internal const string WoodTypeThemeName = "SpreadsheetLight Wood Type";
+        internal const string WoodTypeThemeName = "SharpSheet Wood Type";
         internal const string WoodTypeThemeMajorLatinFont = "Rockwell Condensed";
         internal const string WoodTypeThemeMinorLatinFont = "Rockwell";
         internal const string WoodTypeThemeDark1Color = "000000";

@@ -8,9 +8,9 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// This cleans up all the SLCell objects with default values.
@@ -171,7 +171,7 @@ namespace SpreadsheetLight
         }
 
         /// <summary>
-        /// Indicates if the cell has an error. WARNING: SpreadsheetLight does not have a formula calculation engine, so only existing errors are reported.
+        /// Indicates if the cell has an error. WARNING: SharpSheet does not have a formula calculation engine, so only existing errors are reported.
         /// </summary>
         /// <param name="CellReference">The cell reference, such as "A1".</param>
         /// <returns>True if there's a cell error. False otherwise (also if out of bounds).</returns>
@@ -188,7 +188,7 @@ namespace SpreadsheetLight
         }
 
         /// <summary>
-        /// Indicates if the cell has an error. WARNING: SpreadsheetLight does not have a formula calculation engine, so only existing errors are reported.
+        /// Indicates if the cell has an error. WARNING: SharpSheet does not have a formula calculation engine, so only existing errors are reported.
         /// </summary>
         /// <param name="RowIndex">The row index.</param>
         /// <param name="ColumnIndex">The column index.</param>

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Flattens shared cell formulas into respective cells.

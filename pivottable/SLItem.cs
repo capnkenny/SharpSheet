@@ -1,7 +1,7 @@
 ﻿using System;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLItem
     {

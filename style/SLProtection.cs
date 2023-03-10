@@ -2,7 +2,7 @@
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for cell content protection. The properties don't take effect unless the worksheet is protected. This simulates the DocumentFormat.OpenXml.Spreadsheet.Protection class.

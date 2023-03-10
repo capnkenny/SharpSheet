@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Encapsulates properties and methods for up-down bars.

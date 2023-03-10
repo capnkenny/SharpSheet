@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// This represents a cell reference range in numeric index form.

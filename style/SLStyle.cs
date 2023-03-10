@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Specifies the named cell style to be used.
@@ -344,7 +344,7 @@ namespace SpreadsheetLight
         internal bool? ApplyProtection { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLStyle. It is recommended to use CreateStyle() of the SLDocument class.
+        /// Initializes an instance of SLStyle. It is recommended to use CreateStyle() of the SSDocument class.
         /// </summary>
         public SLStyle()
         {

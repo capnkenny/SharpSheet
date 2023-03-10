@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Simple settings for themes.
@@ -88,7 +88,7 @@ namespace SpreadsheetLight
         public SLThemeSettings()
         {
             this.SetTheme(SLThemeTypeValues.Office);
-            this.ThemeName = "SpreadsheetLight Custom";
+            this.ThemeName = "SharpSheet Custom";
         }
 
         /// <summary>

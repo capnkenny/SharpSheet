@@ -11,11 +11,11 @@ using A = DocumentFormat.OpenXml.Drawing;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Adds a new worksheet, and selects the new worksheet as the active one.

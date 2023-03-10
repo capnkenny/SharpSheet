@@ -4,7 +4,7 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Spreadsheet;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLDataBar
     {

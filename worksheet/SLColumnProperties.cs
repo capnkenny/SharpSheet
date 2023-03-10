@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for columns. This simulates the DocumentFormat.OpenXml.Spreadsheet.Column class.
@@ -54,7 +54,7 @@ namespace SpreadsheetLight
 
                     // the step sizes were calculated based on the max digit width minus 1 pixel.
                     int iPixels = iWholeNumber * (this.MaxDigitWidth - 1) + iStep;
-                    lWidthInEMU = (long)iPixels * SLDocument.PixelToEMU;
+                    lWidthInEMU = (long)iPixels * SSDocument.PixelToEMU;
                     fWidth = iWholeNumber + this.listColumnStepSize[iStep];
                     HasWidth = true;
 

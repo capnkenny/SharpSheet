@@ -5,9 +5,9 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Get existing shared strings. WARNING: This is only a snapshot. Any changes made to the returned result are not used.

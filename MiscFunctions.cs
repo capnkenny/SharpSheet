@@ -5,9 +5,9 @@ using System.Linq;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// <strong>Obsolete. </strong>Get the column name given the column index.

@@ -2,7 +2,7 @@
 using DocumentFormat.OpenXml.Packaging;
 using A = DocumentFormat.OpenXml.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     internal class SLDrawingTool
     {

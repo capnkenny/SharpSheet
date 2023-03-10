@@ -2,7 +2,7 @@
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for specifying cell styles. This simulates the DocumentFormat.OpenXml.Spreadsheet.CellStyle class.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     internal class SLDataSeries
     {

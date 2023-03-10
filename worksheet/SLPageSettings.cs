@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal enum SLHeaderFooterSection
     {
@@ -513,7 +513,7 @@ namespace SpreadsheetLight
         private SLHeaderFooterSection HFSection { get; set; }
 
         /// <summary>
-        /// Initializes an instance of SLPageSettings. It is recommended to use GetPageSettings() of the SLDocument class.
+        /// Initializes an instance of SLPageSettings. It is recommended to use GetPageSettings() of the SSDocument class.
         /// </summary>
         public SLPageSettings()
         {

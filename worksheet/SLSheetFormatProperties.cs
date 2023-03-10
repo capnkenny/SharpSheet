@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLSheetFormatProperties
     {
@@ -44,7 +44,7 @@ namespace SpreadsheetLight
 
                     // the step sizes were calculated based on the max digit width minus 1 pixel.
                     int iPixels = iWholeNumber * (this.MaxDigitWidth - 1) + iStep;
-                    lDefaultColumnWidthInEMU = (long)iPixels * SLDocument.PixelToEMU;
+                    lDefaultColumnWidthInEMU = (long)iPixels * SSDocument.PixelToEMU;
                     fDefaultColumnWidth = iWholeNumber + this.listColumnStepSize[iStep];
                     HasDefaultColumnWidth = true;
                 }
@@ -71,9 +71,9 @@ namespace SpreadsheetLight
             }
             set
             {
-                double fModifiedRowHeight = value / SLDocument.RowHeightMultiple;
+                double fModifiedRowHeight = value / SSDocument.RowHeightMultiple;
                 // round because it looks nicer. Is 4 decimal places good enough?
-                fModifiedRowHeight = Math.Round(Math.Ceiling(fModifiedRowHeight) * SLDocument.RowHeightMultiple, 4);
+                fModifiedRowHeight = Math.Round(Math.Ceiling(fModifiedRowHeight) * SSDocument.RowHeightMultiple, 4);
 
                 lDefaultRowHeightInEMU = (long)(fModifiedRowHeight * SLConstants.PointToEMU);
 

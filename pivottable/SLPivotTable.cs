@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Data field function values.
@@ -245,7 +245,7 @@ namespace SpreadsheetLight
             // I don't know what earlier versions of Excel use because I've uninstalled
             // the earlier versions of Excel 2007 and 2010...
             // These three attributes are application dependent, which means technically they're
-            // dependent on SpreadsheetLight.
+            // dependent on SharpSheet.
             // For the sake of simplicity, I'm going to set all three attributes to the value of 3,
             // so Excel (whatever version) can handle it without being insufferable.
 

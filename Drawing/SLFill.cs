@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using DocumentFormat.OpenXml;
 using A = DocumentFormat.OpenXml.Drawing;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     internal enum SLFillType
     {

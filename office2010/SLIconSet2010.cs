@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DocumentFormat.OpenXml;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     class SLIconSet2010
     {

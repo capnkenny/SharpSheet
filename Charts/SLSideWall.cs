@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Encapsulates properties and methods for setting the side wall of 3D charts.

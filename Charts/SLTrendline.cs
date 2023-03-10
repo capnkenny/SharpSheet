@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using A = DocumentFormat.OpenXml.Drawing;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     public class SLTrendline
     {

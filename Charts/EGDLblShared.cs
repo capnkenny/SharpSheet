@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// This simulates the element group EG_DLblShared as specified in the Open XML specs.

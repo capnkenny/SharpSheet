@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Statistical information about a worksheet.
@@ -59,7 +59,7 @@ namespace SpreadsheetLight
         public int NumberOfColumns { get { return iNumberOfColumns; } }
 
         /// <summary>
-        /// Initializes an instance of SLWorksheetStatistics. But it's quite useless on its own. Use GetWorksheetStatistics() of the SLDocument class.
+        /// Initializes an instance of SLWorksheetStatistics. But it's quite useless on its own. Use GetWorksheetStatistics() of the SSDocument class.
         /// </summary>
         public SLWorksheetStatistics()
         {

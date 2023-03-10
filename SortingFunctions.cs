@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Linq;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Sort data by column.

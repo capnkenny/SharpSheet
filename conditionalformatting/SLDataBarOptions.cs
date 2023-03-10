@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Conditional formatting options for data bars.

@@ -1,7 +1,7 @@
 ﻿using System;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// This simulates the DocumentFormat.OpenXml.Spreadsheet.DefinedName class.

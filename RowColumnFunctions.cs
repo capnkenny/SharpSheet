@@ -8,9 +8,9 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
-    public partial class SLDocument
+    public partial class SSDocument
     {
         /// <summary>
         /// Indicates if the row has an existing style.
@@ -165,7 +165,7 @@ namespace SpreadsheetLight
             if (iEndRowIndex > SLConstants.RowLimit) iEndRowIndex = SLConstants.RowLimit;
 
             if (MaximumRowHeight > SLConstants.MaximumRowHeight) MaximumRowHeight = SLConstants.MaximumRowHeight;
-            int iMaximumPixelLength = Convert.ToInt32(Math.Floor(MaximumRowHeight / SLDocument.RowHeightMultiple));
+            int iMaximumPixelLength = Convert.ToInt32(Math.Floor(MaximumRowHeight / SSDocument.RowHeightMultiple));
 
             Dictionary<int, int> pixellength = this.AutoFitRowColumn(true, iStartRowIndex, iEndRowIndex, iMaximumPixelLength);
 

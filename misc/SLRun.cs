@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for rich text runs. This simulates the DocumentFormat.OpenXml.Spreadsheet.Run class.

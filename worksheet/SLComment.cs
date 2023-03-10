@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using DocumentFormat.OpenXml.Vml;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Specifies how the text is aligned horizontally.

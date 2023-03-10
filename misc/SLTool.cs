@@ -14,11 +14,11 @@ using Excel = DocumentFormat.OpenXml.Office.Excel;
 // (or until this comment is no longer useful :)
 //using System.Windows.Forms;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     // Why is SLConvert similar to SLTool? Why is this made internal and not public?
     // Because I want SLTool to be consistent with say SLDrawingTool and that they're
-    // really internal to SpreadsheetLight. SLConvert is meant as the "real" public interface.
+    // really internal to SharpSheet. SLConvert is meant as the "real" public interface.
     // This way, the end developer only need to remember SLConvert. And also SLConvert is
     // similar to using System.Convert class. Most .NET developers should be familiar with
     // that class.
@@ -106,7 +106,7 @@ namespace SpreadsheetLight
             // That's a waste of CPU cycles. The worst case scenario is if you set cell values only
             // on column XFD and 1 million+ rows. You're accruing 16384 million iterations.
             
-            // As a historical note, SpreadsheetLight originally used a static List<string> and Dictionary
+            // As a historical note, SharpSheet originally used a static List<string> and Dictionary
             // to hold the column names and the reverse column name index. This is precalculated
             // at initialisation. This follows a game development tip: Precalculate everything when
             // possible. After setting >16384 cell values, the cost of precalculation would have paid

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using A = DocumentFormat.OpenXml.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     internal class SLGradientFill
     {
