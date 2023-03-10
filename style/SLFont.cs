@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using DocumentFormat.OpenXml.Spreadsheet;
 using A = DocumentFormat.OpenXml.Drawing;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for fonts. This simulates the DocumentFormat.OpenXml.Spreadsheet.Font class.

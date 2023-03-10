@@ -9,7 +9,7 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {
@@ -159,7 +159,7 @@ namespace SpreadsheetLight
             // Example: 05-10-2013 or 10-05-2013
             // Then the plus sign: + (we do \+ to escape for regex).
             // The plus sign occurs for expanded year representions, such as the year +12345
-            // Will SpreadsheetLight survive beyond the year 9999? Who knows?
+            // Will SharpSheet survive beyond the year 9999? Who knows?
             // See this for more information:
             //http://en.wikipedia.org/wiki/ISO_8601
             // The dot (or period) is also used: . (we do \. to escape for regex)

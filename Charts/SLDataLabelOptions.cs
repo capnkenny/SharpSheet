@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using A = DocumentFormat.OpenXml.Drawing;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Encapsulates properties and methods for setting data label options for charts.

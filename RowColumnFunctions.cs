@@ -8,7 +8,7 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {

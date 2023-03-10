@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {

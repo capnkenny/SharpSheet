@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for columns. This simulates the DocumentFormat.OpenXml.Spreadsheet.Column class.

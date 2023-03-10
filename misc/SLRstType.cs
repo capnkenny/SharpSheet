@@ -4,9 +4,9 @@ using System.Text;
 using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Spreadsheet;
 using A = DocumentFormat.OpenXml.Drawing;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for handling rich string types. This includes the CommentText class, InlineString class and SharedStringItem class. This simulates the (abstract) DocumentFormat.OpenXml.Spreadsheet.RstType class.

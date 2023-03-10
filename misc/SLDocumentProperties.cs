@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for setting spreadsheet document properties.

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using A = DocumentFormat.OpenXml.Drawing;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     internal class SLShapeProperties
     {

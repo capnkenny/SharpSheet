@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal enum SLHeaderFooterSection
     {

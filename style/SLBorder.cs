@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for specifying cell borders. This simulates the DocumentFormat.OpenXml.Spreadsheet.Border class.

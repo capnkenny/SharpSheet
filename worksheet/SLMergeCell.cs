@@ -1,7 +1,7 @@
 ﻿using System;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for representing a merged cell range. This simulates the DocumentFormat.OpenXml.Spreadsheet.MergeCell class.

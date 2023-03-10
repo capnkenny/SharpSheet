@@ -10,7 +10,7 @@ using A = DocumentFormat.OpenXml.Drawing;
 // (or until this comment is no longer useful :)
 //using System.Windows.Forms;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Specifies the built-in theme type.

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Data series customization options. Note that all supported chart data series properties are available, but only the relevant properties (to chart type) will be used.

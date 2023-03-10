@@ -2,7 +2,7 @@
 using System.IO;
 using DocumentFormat.OpenXml.Packaging;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {

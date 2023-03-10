@@ -9,9 +9,9 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using DocumentFormat.OpenXml.Vml;
 using A = DocumentFormat.OpenXml.Drawing;
-using SLA = SpreadsheetLight.Drawing;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {

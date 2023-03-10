@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// This is for information purposes only! This simulates the DocumentFormat.OpenXml.Spreadsheet.CellFormula class.

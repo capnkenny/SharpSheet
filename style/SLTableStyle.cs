@@ -2,7 +2,7 @@
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLTableStyle
     {

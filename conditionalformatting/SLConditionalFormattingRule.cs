@@ -4,7 +4,7 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Spreadsheet;
 using Excel = DocumentFormat.OpenXml.Office.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLConditionalFormattingRule
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using A = DocumentFormat.OpenXml.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     /// <summary>
     /// Specifies camera preset settings.

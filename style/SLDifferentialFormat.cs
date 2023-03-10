@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DocumentFormat.OpenXml.Spreadsheet;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for specifying incremental formatting. This simulates the DocumentFormat.OpenXml.Spreadsheet.DifferentialFormat and DocumentFormat.OpenXml.Office2010.Excel.DifferentialType classes.

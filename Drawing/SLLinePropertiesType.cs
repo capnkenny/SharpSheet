@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using A = DocumentFormat.OpenXml.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     /// <summary>
     /// Encapsulates properties and methods for setting line or border settings.

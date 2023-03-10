@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLSheetFormatProperties
     {

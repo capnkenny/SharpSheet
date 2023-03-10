@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Chart customization options for bar and column charts.

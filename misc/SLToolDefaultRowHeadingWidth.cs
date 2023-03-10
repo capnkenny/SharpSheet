@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal partial class SLTool
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates properties and methods for specifying worksheet protection. This simulates the DocumentFormat.OpenXml.Spreadsheet.SheetProtection class.

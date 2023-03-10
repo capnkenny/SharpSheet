@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using DocumentFormat.OpenXml.Spreadsheet;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Specifies the named cell style to be used.

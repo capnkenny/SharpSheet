@@ -20,7 +20,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 // You can get the precompiled DLL as well as documentation at http://spreadsheetlight.com/
 // If you're interested, my personal blog is at http://polymathprogrammer.com/
-// Thanks for using SpreadsheetLight! -Vincent
+// Thanks for using SharpSheet! -Vincent
 
 using System;
 using System.Collections.Generic;
@@ -37,7 +37,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 using Xdr = DocumentFormat.OpenXml.Drawing.Spreadsheet;
 using X14 = DocumentFormat.OpenXml.Office2010.Excel;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Encapsulates the main properties and methods to create and manipulate a spreadsheet.
@@ -56,7 +56,7 @@ namespace SpreadsheetLight
         private bool IsNewWorksheet = true;
 
         private bool gbThrowExceptionsIfAny = false;
-        // This is a suggestion from David H. SpreadsheetLight originally swallows any exceptions
+        // This is a suggestion from David H. SharpSheet originally swallows any exceptions
         // so that the calling program using the library continues to function.
         // It's designed this way because the calling program can be an automated scheduled program
         // running in the wee hours of the morning. If there's a whole bunch of programs, then a failure
@@ -216,7 +216,7 @@ namespace SpreadsheetLight
         /// <summary>
         /// Set to true to write the unique shared string count property, false otherwise. The default is true.
         /// Set this to false if you get an error opening the resulting file because at a high number of text strings,
-        /// SpreadsheetLight might count the number wrongly (because the Open XML specs are sort of convoluted).
+        /// SharpSheet might count the number wrongly (because the Open XML specs are sort of convoluted).
         /// </summary>
         public bool WriteUniqueSharedStringCount
         {

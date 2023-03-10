@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// General chart customization options on chart creation.
@@ -9,7 +9,7 @@ namespace SpreadsheetLight.Charts
     {
         /// <summary>
         /// True if rows contain the data series. False if columns contain the data series.
-        /// Set to null if SpreadsheetLight is to determine data series orientation.
+        /// Set to null if SharpSheet is to determine data series orientation.
         /// If the number of columns in a given cell range is more than or equal to the
         /// number of rows, then it's decided that rows contain data series (else it's columns).
         /// The default value is null.

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// The type of hyperlink.

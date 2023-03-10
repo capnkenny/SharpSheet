@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// Conditional formatting options for five icon sets.

@@ -1,7 +1,7 @@
 ﻿using System;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
 
-namespace SpreadsheetLight.Charts
+namespace SharpSheet.Charts
 {
     /// <summary>
     /// Chart customization options for bubble charts.

@@ -6,10 +6,10 @@ using DocumentFormat.OpenXml.Packaging;
 using DocumentFormat.OpenXml.Spreadsheet;
 using A = DocumentFormat.OpenXml.Drawing;
 using C = DocumentFormat.OpenXml.Drawing.Charts;
-using SLC = SpreadsheetLight.Charts;
-using SLA = SpreadsheetLight.Drawing;
+using SLC = SharpSheet.Charts;
+using SLA = SharpSheet.Drawing;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     public partial class SLDocument
     {

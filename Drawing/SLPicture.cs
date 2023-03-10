@@ -5,7 +5,7 @@ using DocumentFormat.OpenXml;
 using DocumentFormat.OpenXml.Packaging;
 using A = DocumentFormat.OpenXml.Drawing;
 
-namespace SpreadsheetLight.Drawing
+namespace SharpSheet.Drawing
 {
     /// <summary>
     /// Encapsulates properties and methods for a picture to be inserted into a worksheet.
@@ -228,7 +228,7 @@ namespace SpreadsheetLight.Drawing
         /// Initializes an instance of SLPicture given the file name of a picture.
         /// </summary>
         /// <param name="PictureFileName">The file name of a picture to be inserted.</param>
-        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SpreadsheetLight. Set to false otherwise. The default is false.</param>
+        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SharpSheet. Set to false otherwise. The default is false.</param>
         public SLPicture(string PictureFileName, bool ThrowExceptionsIfAny)
         {
             InitialisePicture(ThrowExceptionsIfAny);
@@ -261,7 +261,7 @@ namespace SpreadsheetLight.Drawing
         /// <param name="PictureFileName">The file name of a picture to be inserted.</param>
         /// <param name="TargetHorizontalResolution">The targeted computer's horizontal resolution (DPI).</param>
         /// <param name="TargetVerticalResolution">The targeted computer's vertical resolution (DPI).</param>
-        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SpreadsheetLight. Set to false otherwise. The default is false.</param>
+        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SharpSheet. Set to false otherwise. The default is false.</param>
         public SLPicture(string PictureFileName, float TargetHorizontalResolution, float TargetVerticalResolution, bool ThrowExceptionsIfAny)
         {
             InitialisePicture(ThrowExceptionsIfAny);
@@ -295,7 +295,7 @@ namespace SpreadsheetLight.Drawing
         /// </summary>
         /// <param name="PictureByteData">The picture's data in a byte array.</param>
         /// <param name="PictureType">The image type of the picture.</param>
-        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SpreadsheetLight. Set to false otherwise. The default is false.</param>
+        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SharpSheet. Set to false otherwise. The default is false.</param>
         public SLPicture(byte[] PictureByteData, ImagePartType PictureType, bool ThrowExceptionsIfAny)
         {
             InitialisePicture(ThrowExceptionsIfAny);
@@ -336,7 +336,7 @@ namespace SpreadsheetLight.Drawing
         /// <param name="PictureType">The image type of the picture.</param>
         /// <param name="TargetHorizontalResolution">The targeted computer's horizontal resolution (DPI).</param>
         /// <param name="TargetVerticalResolution">The targeted computer's vertical resolution (DPI).</param>
-        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SpreadsheetLight. Set to false otherwise. The default is false.</param>
+        /// <param name="ThrowExceptionsIfAny">Set to true to bubble exceptions up if there are any occurring within SharpSheet. Set to false otherwise. The default is false.</param>
         public SLPicture(byte[] PictureByteData, ImagePartType PictureType, float TargetHorizontalResolution, float TargetVerticalResolution, bool ThrowExceptionsIfAny)
         {
             InitialisePicture(ThrowExceptionsIfAny);

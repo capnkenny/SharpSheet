@@ -4,7 +4,7 @@
 // with DocumentFormat.OpenXml.Spreadsheet.Tuple.
 // Good thing we're on 3.5...
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal class SLTuple
     {

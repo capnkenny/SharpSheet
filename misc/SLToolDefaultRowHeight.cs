@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     internal partial class SLTool
     {
@@ -16,7 +16,7 @@ namespace SpreadsheetLight
             // So I can't figure out the formula... There's no consistency at all.
 
             // So where did I get all these values? I got a list of installed typefaces on my computer.
-            // There are 264 of them as of the writing of this comment. Then I used SpreadsheetLight
+            // There are 264 of them as of the writing of this comment. Then I used SharpSheet
             // and generated a theme with the installed fonts as the minor font and generated a spreadsheet.
             // So I had 3 folders, dpi96, dpi120 and dpi144. And each folder had 264 Excel files,
             // each named something like Arial.xlsx with Arial as the minor font and Calibri.xlsx

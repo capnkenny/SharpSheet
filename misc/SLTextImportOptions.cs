@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-namespace SpreadsheetLight
+namespace SharpSheet
 {
     /// <summary>
     /// The type of data fields to be imported, whether by delimiters/separators or in fixed width.
